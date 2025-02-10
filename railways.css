@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 87%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav img{
+    width: 110px;
+}
+.nav img:nth-child(1){
+    width: 100px;
+}
+.main::before{
+content: "";
+width: 100%;
+height: 130vh;
+position: absolute;
+background: url(https://imgs.search.brave.com/0jiJh9XwN6cVbl0F1_aPCqOc7YSRaAvBKulaHg6J4Uc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGluZHVzdGFudGlt/ZXMuY29tL2h0LWlt/Zy9pbWcvMjAyMy8w/Ny8yMS81NTB4MzA5/L1RoZS1QYXRuYS1S/YW5jaGktVmFuZGUt/QmhhcmF0LWV4cHJl/c3MtcmFrZS1hcnJp/dmVkXzE2ODYxNDIz/NjY0NzZfMTY4OTkx/NjE2NjUyNS5qcGc) no-repeat center;
+background-size: cover;
+z-index: -1;
+}
+.form{
+    width: 40%;
+    top: 3rem;
+    position: relative;
+    left: 10%;
+    background: white;
+}
+.form .head{
+   
+    justify-content: space-between;
+    text-align: center;
+}
+.head-box{
+width: 100%;
+height: 30px;
+background: darkblue;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.head-box img{
+    padding-right: 0.9rem;
+}
+
+.head-box h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.body .text{
+    text-align: center;
+    
+}
+.body .text h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 2rem;
+    letter-spacing: 1px;
+    padding-bottom: 0.1rem;
+    padding-top: 1rem;
+    color: darkblue;
+   
+   
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.form-input i{
+    position: relative;
+    top: 2.6rem;
+    left: 2.1rem;
+    width: 7px;
+    color: darkblue;
+
+}
+.form-input loc{
+    position: absolute;
+    top: 40%;
+}
+.form-input label{
+    padding-right: 21rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: darkblue;
+}
+.form-input input,select{
+width:85%;
+height: 35px;
+margin: 1rem auto;
+border-radius: 4px;
+border: 1px solid black;
+font-size: 15px;
+color: darkblue;
+font-weight: 500;
+outline-color: darkblue;
+}
+.form-input input{
+    padding-left: 2rem;
+}
+.form-input select{
+    width: 92%;
+    padding-left: 2rem;
+}
+.from-input .arrow{
+    width: 44%;
+    height: 0px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: rgba(207, 214, 207, 0.788);
+}
+.from-input .arrow i{
+    width: 0px;
+    font-size: larger;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0.3rem;
+    left: 0.3rem;
+    padding-top: 4px;
+
+}
+
+::placeholder{
+    color: darkblue;
+}
+
+.form-input button{
+    width: 90%;
+    margin: 1rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-input button:active{
+    background-color: red;
+}
+.options{
+    width: 90%;
+    margin: 0 auto;
+    height: 90px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+    color: darkblue;
+}
+.options input{
+    width: 15px;
+    height: 15px;
+    margin: 0.5rem 0;
+    margin-right: 0.5rem;
+   
+
+}
